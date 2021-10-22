@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let a = Number(prompt("Podaj liczbę a:"));
+        let b = Number(prompt("Podaj liczbę b:"));
+        let mnozenie = a*b;
+        let dzielenie = a/b;
+
+        let k = Number(prompt('Podaj jakie działanie chcesz wykonać: 1-"+", 2-"-", 3-"*", 4-"/", 5-"%"'));
+
+        
+        switch(k){
+            case 1:
+            document.write(a+b); 
+            break;
+
+            case 2:
+            document.write(a-b);
+            break;
+
+            case 3: 
+            document.write(a*b);
+            break;
+            
+            case 4: 
+            document.write(a/b);
+            break;
+
+            case 5: 
+            document.write(a%b);
+            break;
+        }
+
+    </script>
+
+</body>
+</html>
